@@ -1,7 +1,10 @@
-﻿namespace Api_de_Prueba.Modelos
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Api_de_Prueba.Modelos
 {
     public class CarritoCompra
     {
+        [Key]
         public int numeroCompra { get; set; }
         public string nombreUsuario { get; set; } = string.Empty;
         public string nombreProducto { get; set; } = string.Empty;

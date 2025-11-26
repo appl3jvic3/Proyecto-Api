@@ -1,8 +1,10 @@
-﻿namespace Api_de_Prueba.Modelos
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Api_de_Prueba.Modelos
 {
     public class Producto
     {
-     
+        [Key]
         public int productoId { get; set; }
        
         public string nombreProducto { get; set; } = string.Empty;

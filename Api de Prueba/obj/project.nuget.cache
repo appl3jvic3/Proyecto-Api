@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RYw9BTcZA6s=",
+  "dgSpecHash": "0J7yV/1Q8Tg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Api de Prueba\\Api de Prueba\\Api de Prueba.csproj",
+  "projectFilePath": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\Api de Prueba\\Api de Prueba.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\danco\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\danco\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

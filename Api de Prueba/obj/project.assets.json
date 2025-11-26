@@ -4458,11 +4458,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Api de Prueba\\Api de Prueba\\Api de Prueba.csproj",
+      "projectUniqueName": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\Api de Prueba\\Api de Prueba.csproj",
       "projectName": "Api de Prueba",
-      "projectPath": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Api de Prueba\\Api de Prueba\\Api de Prueba.csproj",
+      "projectPath": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\Api de Prueba\\Api de Prueba.csproj",
       "packagesPath": "C:\\Users\\danco\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Api de Prueba\\Api de Prueba\\obj\\",
+      "outputPath": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\Api de Prueba\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

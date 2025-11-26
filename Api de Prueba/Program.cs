@@ -1,3 +1,4 @@
+using Api_de_Prueba.Data;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

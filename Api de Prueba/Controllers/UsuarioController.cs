@@ -19,7 +19,7 @@ namespace Api_de_Prueba.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Usuario>> GetUsuario(int id)
         {
-            var usuario = await _context.RegistrarUsuarios.FindAsync(id);
+            var usuario = await _context.Usuario.FindAsync(id);
 
             if (usuario == null)
             {
@@ -33,7 +33,7 @@ namespace Api_de_Prueba.Controllers
         public async Task<ActionResult<Usuario>> PostUsuario(Usuario usuario)
            {
             
-            _context.RegistrarUsuarios.Add(usuario);
+            _context.Usuario.Add(usuario);
             await _context.SaveChangesAsync();
             return CreatedAtAction(nameof(GetUsuario), new { id = usuario.usuarioId }, usuario);
         }

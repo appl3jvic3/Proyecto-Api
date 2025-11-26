@@ -10,10 +10,10 @@ namespace Api_de_Prueba.Data
         {
         }
 
-        public DbSet<CarritoCompra> RegistrosDeCompra { get; set; }
+        public DbSet<CarritoCompra> CarritoCompra { get; set; }
 
-        public DbSet<Producto> ManejoDeProductos { get; set; }
+        public DbSet<Producto> Producto { get; set; }
 
-        public DbSet<Usuario> RegistrarUsuarios { get; set; }
+        public DbSet<Usuario> Usuario { get; set; }
     }
 }

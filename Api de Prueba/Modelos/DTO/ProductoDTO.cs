@@ -1,14 +1,10 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace Api_de_Prueba.Modelos
+﻿namespace Api_de_Prueba.Modelos.DTO
 {
-    public class Producto
+    public class ProductoDTO
     {
-        [Key]
         public int productoId { get; set; }
-       
         public string nombreProducto { get; set; } = string.Empty;
-        public string descripcion { get; set; } = string.Empty;
+        public string? descripcion { get; set; }
         public decimal precio { get; set; }
         public int cantidadDisponible { get; set; }
         public string categoria { get; set; } = string.Empty;

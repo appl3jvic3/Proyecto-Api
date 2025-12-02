@@ -82,18 +82,6 @@ namespace Api_de_Prueba.Controllers
 
        
 
-        [HttpGet("{id}")]
-        public async Task<ActionResult<Producto>> GetProducto(int id)
-        {
-            var producto = await _context.Producto.FindAsync(id);
-
-            if (producto == null)
-            {
-                return NotFound();
-            }
-
-            return Ok(producto);
-        }
-
+    
     }
 }

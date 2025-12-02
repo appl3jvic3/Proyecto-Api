@@ -103,16 +103,40 @@ namespace Api_de_Prueba.Controllers
             return NoContent();
         }
 
-        // DELETE: api/productos/{productoId}
-        [HttpDelete("{productoId:int}")]
-        public async Task<IActionResult> Delete(int productoId)
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<Producto>>> GetProductos()
         {
-            var producto = await _context.Set<Producto>().FindAsync(productoId);
-            if (producto == null) return NotFound();
+            var productos = await _context.Producto.ToListAsync();
 
-            _context.Set<Producto>().Remove(producto);
-            await _context.SaveChangesAsync();
-            return NoContent();
+            // Generar rutas de imágenes automáticamente
+            foreach (var producto in productos)
+            {
+                var nombreArchivo = producto.nombreProducto
+                    .ToLower()
+                    .Replace(" ", "-")
+                    .Replace("á", "a")
+                    .Replace("é", "e")
+                    .Replace("í", "i")
+                    .Replace("ó", "o")
+                    .Replace("ú", "u");
+
+                producto.imagen = $"img/productos/{nombreArchivo}.png";
+            }
+
+            return Ok(productos);
+        }
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Producto>> GetProducto(int id)
+        {
+            var producto = await _context.Producto.FindAsync(id);
+
+            if (producto == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(producto);
         }
 
     }

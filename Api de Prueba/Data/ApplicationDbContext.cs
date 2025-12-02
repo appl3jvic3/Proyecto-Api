@@ -16,8 +16,6 @@ namespace Api_de_Prueba.Data
 
         public DbSet<Usuario> Usuario { get; set; }
 
-        public DbSet<Orden> Orden { get; set; }
-
-        public DbSet<OrdenItem> OrdenItem { get; set; }
+        
     }
 }

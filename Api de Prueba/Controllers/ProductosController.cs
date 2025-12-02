@@ -57,27 +57,28 @@ namespace Api_de_Prueba.Controllers
             return Ok(productoDto);
         }
 
-        // POST: api/productos
-        [HttpPost]
-        public async Task<IActionResult> Create([FromBody] ProductoDTO productoDto)
+        [HttpGet]
+        public IActionResult ObtenerProductos()
         {
-            if (!ModelState.IsValid) return BadRequest(ModelState);
+            var productos = _context.Producto.ToList();
 
-            var producto = new Producto
+            // Generar la ruta de imagen para cada producto
+            foreach (var producto in productos)
             {
-                nombreProducto = productoDto.nombreProducto,
-                descripcion = productoDto.descripcion ?? string.Empty,
-                precio = productoDto.precio,
-                cantidadDisponible = productoDto.cantidadDisponible,
-                categoria = productoDto.categoria,
-                descuento = productoDto.descuento
-            };
+                // Ejemplo: "Charizard VMAX" → "img/productos/charizard-vmax.png"
+                var nombreArchivo = producto.nombreProducto
+                    .ToLower()
+                    .Replace(" ", "-")
+                    .Replace("á", "a")
+                    .Replace("é", "e")
+                    .Replace("í", "i")
+                    .Replace("ó", "o")
+                    .Replace("ú", "u");
 
-            _context.Set<Producto>().Add(producto);
-            await _context.SaveChangesAsync();
+                producto.imagen = $"img/productos/{nombreArchivo}.png";
+            }
 
-            productoDto.productoId = producto.productoId;
-            return CreatedAtAction(nameof(Get), new { productoId = productoDto.productoId }, productoDto);
+            return Ok(productos);
         }
 
         // PUT: api/productos/{productoId}

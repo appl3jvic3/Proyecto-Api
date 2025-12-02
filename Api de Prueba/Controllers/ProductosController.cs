@@ -57,30 +57,7 @@ namespace Api_de_Prueba.Controllers
             return Ok(productoDto);
         }
 
-        [HttpGet]
-        public IActionResult ObtenerProductos()
-        {
-            var productos = _context.Producto.ToList();
-
-            // Generar la ruta de imagen para cada producto
-            foreach (var producto in productos)
-            {
-                // Ejemplo: "Charizard VMAX" → "img/productos/charizard-vmax.png"
-                var nombreArchivo = producto.nombreProducto
-                    .ToLower()
-                    .Replace(" ", "-")
-                    .Replace("á", "a")
-                    .Replace("é", "e")
-                    .Replace("í", "i")
-                    .Replace("ó", "o")
-                    .Replace("ú", "u");
-
-                producto.imagen = $"img/productos/{nombreArchivo}.png";
-            }
-
-            return Ok(productos);
-        }
-
+        
         // PUT: api/productos/{productoId}
         [HttpPut("{productoId:int}")]
         public async Task<IActionResult> Update(int productoId, [FromBody] ProductoDTO productoDto)
@@ -103,28 +80,7 @@ namespace Api_de_Prueba.Controllers
             return NoContent();
         }
 
-        [HttpGet]
-        public async Task<ActionResult<IEnumerable<Producto>>> GetProductos()
-        {
-            var productos = await _context.Producto.ToListAsync();
-
-            // Generar rutas de imágenes automáticamente
-            foreach (var producto in productos)
-            {
-                var nombreArchivo = producto.nombreProducto
-                    .ToLower()
-                    .Replace(" ", "-")
-                    .Replace("á", "a")
-                    .Replace("é", "e")
-                    .Replace("í", "i")
-                    .Replace("ó", "o")
-                    .Replace("ú", "u");
-
-                producto.imagen = $"img/productos/{nombreArchivo}.png";
-            }
-
-            return Ok(productos);
-        }
+       
 
         [HttpGet("{id}")]
         public async Task<ActionResult<Producto>> GetProducto(int id)

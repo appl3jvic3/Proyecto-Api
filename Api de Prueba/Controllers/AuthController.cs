@@ -22,9 +22,9 @@ namespace Api_de_Prueba.Controllers
         public async Task<ActionResult> Login([FromBody] LoginRequest request)
         {
             var usuario = await _context.Usuario
-                .FirstOrDefaultAsync(u => u.correo == request.email);
+                .FirstOrDefaultAsync(u => u.correo == request.correo);
 
-            if (usuario == null || usuario.contrasena != request.password)
+            if (usuario == null || usuario.contrasena != request.contrasena)
             {
                 return Unauthorized(new { message = "Credenciales incorrectas" });
             }
@@ -46,16 +46,16 @@ namespace Api_de_Prueba.Controllers
         public async Task<ActionResult> Register([FromBody] RegisterRequest request)
         {
             // Verificar si ya existe
-            if (await _context.Usuario.AnyAsync(u => u.correo == request.email))
+            if (await _context.Usuario.AnyAsync(u => u.correo == request.contrasena))
             {
                 return BadRequest(new { message = "El email ya está registrado" });
             }
 
             var nuevoUsuario = new Usuario
             {
-                nombreUsuario = request.name,
-                correo = request.email,
-                contrasena = request.password, // En producción, usa hash
+                nombreUsuario = request.nombreUsuario,
+                correo = request.correo,
+                contrasena = request.contrasena, // En producción, usa hash
                 
             };
 

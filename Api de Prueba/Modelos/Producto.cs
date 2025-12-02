@@ -1,7 +1,8 @@
 ﻿using System.Text.Json.Serialization;
 using System.ComponentModel.DataAnnotations.Schema;
-
-public class Producto
+namespace Api_de_Prueba.Modelos
+{
+    public class Producto
 {
     [JsonPropertyName("id")]
     public int productoId { get; set; }
@@ -28,4 +29,5 @@ public class Producto
     [NotMapped]  // ⭐ IMPORTANTE: Le dice a Entity Framework que ignore esta propiedad
     [JsonPropertyName("image")]
     public string imagen { get; set; } = string.Empty;
+}
 }

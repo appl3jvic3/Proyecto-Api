@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text.Json.Serialization;
 
 namespace Api_de_Prueba.Modelos
@@ -20,6 +21,14 @@ namespace Api_de_Prueba.Modelos
 
         [JsonPropertyName("totalPrice")]
         public decimal precioTotal { get; set; }
+
+        [ForeignKey("usuarioId")]
+        [JsonIgnore]
+        public Usuario? Usuario { get; set; }
+
+        [ForeignKey("productoId")]
+        [JsonIgnore]
+        public Producto? Producto { get; set; }
 
     }
 }

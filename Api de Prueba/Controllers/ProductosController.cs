@@ -19,45 +19,42 @@ namespace Api_de_Prueba.Controllers
         }
         //GET: api/Productos
         [HttpGet]
-        public async Task<IActionResult> GetAll() { 
-        var productos = await _context.Set<Producto>()
+        public async Task<IActionResult> GetAll()
+        {
+            var productos = await _context.Producto
                 .AsNoTracking()
-                .Select(p => new ProductoDTO
-                {
-                    productoId = p.productoId,
-                    nombreProducto = p.nombreProducto,
-                    descripcion = p.descripcion,
-                    precio = p.precio,
-                    cantidadDisponible = p.cantidadDisponible,
-                    categoria = p.categoria,
-                    descuento = p.descuento
-                })
                 .ToListAsync();
+
+            // Generar rutas de imágenes para cada producto
+            foreach (var p in productos)
+            {
+                var nombre = p.nombreProducto.ToLower()
+                    .Replace(" ", "-")
+                    .Replace("á", "a").Replace("é", "e")
+                    .Replace("í", "i").Replace("ó", "o").Replace("ú", "u");
+                p.imagen = $"img/productos/{nombre}.png";
+            }
+
             return Ok(productos);
         }
 
-        // GET: api/productos/{productoId}
         [HttpGet("{productoId:int}")]
         public async Task<IActionResult> Get(int productoId)
         {
-            var p = await _context.Set<Producto>().FindAsync(productoId);
+            var p = await _context.Producto.FindAsync(productoId);
             if (p == null) return NotFound();
 
-            var productoDto = new ProductoDTO
-            {
-                productoId = p.productoId,
-                nombreProducto = p.nombreProducto,
-                descripcion = p.descripcion,
-                precio = p.precio,
-                cantidadDisponible = p.cantidadDisponible,
-                categoria = p.categoria,
-                descuento = p.descuento
-            };
+            // Generar ruta de imagen
+            var nombre = p.nombreProducto.ToLower()
+                .Replace(" ", "-")
+                .Replace("á", "a").Replace("é", "e")
+                .Replace("í", "i").Replace("ó", "o").Replace("ú", "u");
+            p.imagen = $"img/productos/{nombre}.png";
 
-            return Ok(productoDto);
+            return Ok(p);
         }
 
-        
+
         // PUT: api/productos/{productoId}
         [HttpPut("{productoId:int}")]
         public async Task<IActionResult> Update(int productoId, [FromBody] ProductoDTO productoDto)

@@ -1,11 +1,22 @@
-﻿namespace Api_de_Prueba.Modelos.DTO
+﻿using System.Text.Json.Serialization;
+
+namespace Api_de_Prueba.Modelos.DTO
 {
     public class CarritoDTO
     {
-        public int numeroCompra { get; set; } // opcional al crear (se genera en BD)
-        public string nombreUsuario { get; set; } = string.Empty;
-        public string nombreProducto { get; set; } = string.Empty;
+        [JsonPropertyName("id")]
+        public int numeroCompra { get; set; }
+
+        [JsonPropertyName("userId")]
+        public int usuarioId { get; set; }
+
+        [JsonPropertyName("productId")]
+        public int productoId { get; set; }
+
+        [JsonPropertyName("quantity")]
         public int cantidad { get; set; }
-        public int precioTotal { get; set; }
+
+        [JsonPropertyName("totalPrice")]
+        public decimal precioTotal { get; set; }
     }
 }

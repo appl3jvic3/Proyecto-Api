@@ -54,18 +54,21 @@ namespace Api_de_Prueba.Controllers
         [HttpPost("register")]
         public async Task<ActionResult> Register([FromBody] RegisterRequest request)
         {
+            
+            var correoNormalizado = request.correo?.Trim().ToLower();
+
             // Verificar si ya existe
-            if (await _context.Usuario.AnyAsync(u => u.correo == request.correo))
+            if (await _context.Usuario.AnyAsync(u => u.correo.ToLower() == correoNormalizado))
             {
                 return BadRequest(new { message = "El correo ya está registrado" });
             }
 
             var nuevoUsuario = new Usuario
             {
-                nombreUsuario = request.nombreUsuario,
-                correo = request.correo,
-                contrasena = request.contrasena, // En producción, usa hash
-                
+                nombreUsuario = request.nombreUsuario.Trim(),
+                correo = correoNormalizado,  
+                contrasena = request.contrasena.Trim(),
+                celular = null  
             };
 
             _context.Usuario.Add(nuevoUsuario);

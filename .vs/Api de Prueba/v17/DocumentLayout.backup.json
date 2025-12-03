@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|c:\\users\\danco\\onedrive\\documentos\\ds4 visual estudio\\repositorio para api\\proyecto-api\\api de prueba\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|solutionrelative:api de prueba\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|c:\\users\\danco\\onedrive\\documentos\\ds4 visual estudio\\repositorio para api\\proyecto-api\\api de prueba\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|solutionrelative:api de prueba\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|c:\\users\\danco\\onedrive\\documentos\\ds4 visual estudio\\repositorio para api\\proyecto-api\\api de prueba\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|solutionrelative:api de prueba\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|c:\\users\\danco\\onedrive\\documentos\\ds4 visual estudio\\repositorio para api\\proyecto-api\\api de prueba\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|solutionrelative:api de prueba\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|c:\\users\\danco\\onedrive\\documentos\\ds4 visual estudio\\repositorio para api\\proyecto-api\\api de prueba\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,10 +55,6 @@
       "RelativeMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|solutionrelative:api de prueba\\controllers\\carritocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|c:\\users\\danco\\onedrive\\documentos\\ds4 visual estudio\\repositorio para api\\proyecto-api\\api de prueba\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|solutionrelative:api de prueba\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|c:\\users\\danco\\onedrive\\documentos\\ds4 visual estudio\\repositorio para api\\proyecto-api\\api de prueba\\modelos\\dto\\carritodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|solutionrelative:api de prueba\\modelos\\dto\\carritodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -74,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -101,21 +101,25 @@
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\Api de Prueba\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Api de Prueba\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\Api de Prueba\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Api de Prueba\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwDIAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwDIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-02T05:21:20.557Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "RegisterRequest.cs",
               "DocumentMoniker": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\Api de Prueba\\Modelos\\DTO\\RegisterRequest.cs",
               "RelativeDocumentMoniker": "Api de Prueba\\Modelos\\DTO\\RegisterRequest.cs",
@@ -128,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "LoginRequest.cs",
               "DocumentMoniker": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\Api de Prueba\\Modelos\\DTO\\LoginRequest.cs",
               "RelativeDocumentMoniker": "Api de Prueba\\Modelos\\DTO\\LoginRequest.cs",
@@ -140,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\Api de Prueba\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Api de Prueba\\Properties\\launchSettings.json",
@@ -152,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "CarritoController.cs",
               "DocumentMoniker": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\Api de Prueba\\Controllers\\CarritoController.cs",
               "RelativeDocumentMoniker": "Api de Prueba\\Controllers\\CarritoController.cs",
@@ -164,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ProductosController.cs",
               "DocumentMoniker": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\Api de Prueba\\Controllers\\ProductosController.cs",
               "RelativeDocumentMoniker": "Api de Prueba\\Controllers\\ProductosController.cs",
@@ -189,7 +193,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ProductoDTO.cs",
               "DocumentMoniker": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\Api de Prueba\\Modelos\\DTO\\ProductoDTO.cs",
               "RelativeDocumentMoniker": "Api de Prueba\\Modelos\\DTO\\ProductoDTO.cs",
@@ -213,7 +217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Producto.cs",
               "DocumentMoniker": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\Api de Prueba\\Modelos\\Producto.cs",
               "RelativeDocumentMoniker": "Api de Prueba\\Modelos\\Producto.cs",
@@ -226,19 +230,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 1,
               "Title": "UsuarioController.cs",
               "DocumentMoniker": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\Api de Prueba\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "Api de Prueba\\Controllers\\UsuarioController.cs",
               "ToolTip": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\Api de Prueba\\Controllers\\UsuarioController.cs",
               "RelativeToolTip": "Api de Prueba\\Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T01:30:47.297Z"
+              "WhenOpened": "2025-11-26T01:30:47.297Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\Api de Prueba\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Api de Prueba\\Data\\ApplicationDbContext.cs",
@@ -250,7 +255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\Api de Prueba\\Program.cs",
               "RelativeDocumentMoniker": "Api de Prueba\\Program.cs",
@@ -263,7 +268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\Api de Prueba\\appsettings.json",
               "RelativeDocumentMoniker": "Api de Prueba\\appsettings.json",
@@ -287,7 +292,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\Api de Prueba\\Modelos\\Usuario.cs",
               "RelativeDocumentMoniker": "Api de Prueba\\Modelos\\Usuario.cs",
@@ -296,10 +301,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-24T14:09:23.591Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

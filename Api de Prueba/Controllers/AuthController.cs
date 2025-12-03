@@ -21,12 +21,21 @@ namespace Api_de_Prueba.Controllers
         [HttpPost("login")]
         public async Task<ActionResult> Login([FromBody] LoginRequest request)
         {
-            var usuario = await _context.Usuario
-                .FirstOrDefaultAsync(u => u.correo == request.correo);
+            // Normalizar el correo (quitar espacios y convertir a minúsculas)
+            var correoNormalizado = request.correo?.Trim().ToLower();
 
-            if (usuario == null || usuario.contrasena != request.contrasena)
+            var usuario = await _context.Usuario
+                .FirstOrDefaultAsync(u => u.correo.ToLower() == correoNormalizado);
+
+            if (usuario == null)
             {
-                return Unauthorized(new { message = "Credenciales incorrectas" });
+                return Unauthorized(new { message = "Usuario no encontrado" });
+            }
+
+            // Comparar contraseña (quitando espacios)
+            if (usuario.contrasena.Trim() != request.contrasena.Trim())
+            {
+                return Unauthorized(new { message = "Contraseña incorrecta" });
             }
 
             return Ok(new

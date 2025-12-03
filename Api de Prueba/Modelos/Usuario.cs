@@ -19,7 +19,7 @@ namespace Api_de_Prueba.Modelos
         public string? direccion { get; set; }
 
         [JsonPropertyName("phone")]
-        public int celular { get; set; }
+        public string? celular { get; set; }
 
         [Required]
         [EmailAddress]

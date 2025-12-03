@@ -46,9 +46,9 @@ namespace Api_de_Prueba.Controllers
         public async Task<ActionResult> Register([FromBody] RegisterRequest request)
         {
             // Verificar si ya existe
-            if (await _context.Usuario.AnyAsync(u => u.correo == request.contrasena))
+            if (await _context.Usuario.AnyAsync(u => u.correo == request.correo))
             {
-                return BadRequest(new { message = "El email ya está registrado" });
+                return BadRequest(new { message = "El correo ya está registrado" });
             }
 
             var nuevoUsuario = new Usuario

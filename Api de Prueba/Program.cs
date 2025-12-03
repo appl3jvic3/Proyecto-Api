@@ -35,12 +35,11 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    
+    app.UseSwagger();
     app.UseSwaggerUI();
 }
 
 app.UseHttpsRedirection();
-// Aplicar la política de CORS
 app.UseCors("AllowFrontend");
 app.UseAuthorization();
 

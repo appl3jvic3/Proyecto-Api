@@ -30,5 +30,9 @@ namespace Api_de_Prueba.Modelos
         [JsonIgnore]
         public Producto? Producto { get; set; }
 
+        [JsonPropertyName("date")]
+        public DateTime? fechaCompra { get; set; }
+
+
     }
 }

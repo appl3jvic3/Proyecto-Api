@@ -65,7 +65,8 @@ namespace Api_de_Prueba.Controllers
                 usuarioId = carritoDto.usuarioId,
                 productoId = carritoDto.productoId,
                 cantidad = carritoDto.cantidad,
-                precioTotal = carritoDto.precioTotal
+                precioTotal = carritoDto.precioTotal,
+                fechaCompra = DateTime.UtcNow
             };
 
             _context.CarritoCompra.Add(carrito);

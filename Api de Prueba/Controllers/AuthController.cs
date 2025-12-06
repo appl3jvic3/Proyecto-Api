@@ -43,9 +43,9 @@ namespace Api_de_Prueba.Controllers
                 token = GenerarToken(usuario),
                 user = new
                 {
-                    id = usuario.usuarioId,
-                    name = usuario.nombreUsuario,
-                    email = usuario.correo
+                    usuarioId = usuario.usuarioId,
+                    nombreUsuario = usuario.nombreUsuario,
+                    correo = usuario.correo
                 }
             });
         }
@@ -79,9 +79,9 @@ namespace Api_de_Prueba.Controllers
                 message = "Usuario registrado exitosamente",
                 user = new
                 {
-                    id = nuevoUsuario.usuarioId,
-                    name = nuevoUsuario.nombreUsuario,
-                    email = nuevoUsuario.correo
+                    usuarioId = nuevoUsuario.usuarioId,
+                    nombreUsuario = nuevoUsuario.nombreUsuario,
+                    correo = nuevoUsuario.correo
                 }
             });
         }

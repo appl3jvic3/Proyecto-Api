@@ -4,13 +4,13 @@ namespace Api_de_Prueba.Modelos.DTO
 {
     public class RegisterRequest
     {
-        [JsonPropertyName("name")]
+        [JsonPropertyName("nombreUsuario")]
         public string nombreUsuario { get; set; }
 
-        [JsonPropertyName("email")]
+        [JsonPropertyName("correo")]
         public string correo { get; set; }
 
-        [JsonPropertyName("password")]
+        [JsonPropertyName("contrasena")]
         public string contrasena { get; set; }
     }
 }

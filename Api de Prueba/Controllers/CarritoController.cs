@@ -54,7 +54,7 @@ namespace Api_de_Prueba.Controllers
             // Verificar que usuario y producto existan
             var usuarioExiste = await _context.Usuario.AnyAsync(u => u.usuarioId == carritoDto.usuarioId);
             if (!usuarioExiste)
-                return BadRequest(new { message = "Usuario no encontrado" });
+                return BadRequest(new { message = $"Usuario con ID {carritoDto.usuarioId} no encontrado en la base de datos" });
 
             var productoExiste = await _context.Producto.AnyAsync(p => p.productoId == carritoDto.productoId);
             if (!productoExiste)

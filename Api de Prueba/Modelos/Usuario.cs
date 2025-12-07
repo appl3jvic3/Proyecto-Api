@@ -6,28 +6,28 @@ namespace Api_de_Prueba.Modelos
     public class Usuario
     {
         [Key]
-        [JsonPropertyName("id")]
+        [JsonPropertyName("usuarioId")]
         public int usuarioId { get; set; }
 
         [Required]
         [MaxLength(100)]
-        [JsonPropertyName("name")]
+        [JsonPropertyName("nombreUsuario")]
         public string nombreUsuario { get; set; } = string.Empty;
 
         [MaxLength(200)]
-        [JsonPropertyName("address")]
+        [JsonPropertyName("direccion")]
         public string? direccion { get; set; }
 
-        [JsonPropertyName("phone")]
+        [JsonPropertyName("celular")]
         public string? celular { get; set; }
 
         [Required]
         [EmailAddress]
-        [JsonPropertyName("email")]
+        [JsonPropertyName("correo")]
         public string correo { get; set; } = string.Empty;
 
         [Required]
-        [JsonPropertyName("password")]
+        [JsonPropertyName("contrasena")]
         public string contrasena { get; set; } = string.Empty;
     }
 }

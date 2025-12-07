@@ -4,10 +4,10 @@ namespace Api_de_Prueba.Modelos.DTO
 {
     public class LoginRequest
     {
-        [JsonPropertyName("email")]
+        [JsonPropertyName("correo")]
         public string correo { get; set; }
 
-        [JsonPropertyName("password")]
+        [JsonPropertyName("contrasena")]
         public string contrasena { get; set; }
     }
 }

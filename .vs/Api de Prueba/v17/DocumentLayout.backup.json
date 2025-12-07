@@ -3,64 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|c:\\users\\danco\\onedrive\\documentos\\ds4 visual estudio\\repositorio para api\\proyecto-api\\api de prueba\\modelos\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|solutionrelative:api de prueba\\modelos\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|c:\\users\\danco\\onedrive\\documentos\\ds4 visual estudio\\repositorio para api\\proyecto-api\\api de prueba\\controllers\\carritocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|solutionrelative:api de prueba\\controllers\\carritocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|c:\\users\\danco\\onedrive\\documentos\\ds4 visual estudio\\repositorio para api\\proyecto-api\\api de prueba\\modelos\\dto\\carritodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|solutionrelative:api de prueba\\modelos\\dto\\carritodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|c:\\users\\danco\\onedrive\\documentos\\ds4 visual estudio\\repositorio para api\\proyecto-api\\api de prueba\\modelos\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|solutionrelative:api de prueba\\modelos\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|c:\\users\\danco\\onedrive\\documentos\\ds4 visual estudio\\repositorio para api\\proyecto-api\\api de prueba\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|solutionrelative:api de prueba\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|c:\\users\\danco\\onedrive\\documentos\\ds4 visual estudio\\repositorio para api\\proyecto-api\\api de prueba\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|solutionrelative:api de prueba\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|c:\\users\\danco\\onedrive\\documentos\\ds4 visual estudio\\repositorio para api\\proyecto-api\\api de prueba\\modelos\\carritocompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|solutionrelative:api de prueba\\modelos\\carritocompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|c:\\users\\danco\\onedrive\\documentos\\ds4 visual estudio\\repositorio para api\\proyecto-api\\api de prueba\\controllers\\historialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|solutionrelative:api de prueba\\controllers\\historialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|c:\\users\\danco\\onedrive\\documentos\\ds4 visual estudio\\repositorio para api\\proyecto-api\\api de prueba\\modelos\\dto\\orderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|solutionrelative:api de prueba\\modelos\\dto\\orderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|c:\\users\\danco\\onedrive\\documentos\\ds4 visual estudio\\repositorio para api\\proyecto-api\\api de prueba\\modelos\\dto\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|solutionrelative:api de prueba\\modelos\\dto\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|c:\\users\\danco\\onedrive\\documentos\\ds4 visual estudio\\repositorio para api\\proyecto-api\\api de prueba\\modelos\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|solutionrelative:api de prueba\\modelos\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|c:\\users\\danco\\onedrive\\documentos\\ds4 visual estudio\\repositorio para api\\proyecto-api\\api de prueba\\controllers\\carritocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|solutionrelative:api de prueba\\controllers\\carritocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|c:\\users\\danco\\onedrive\\documentos\\ds4 visual estudio\\repositorio para api\\proyecto-api\\api de prueba\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|solutionrelative:api de prueba\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|c:\\users\\danco\\onedrive\\documentos\\ds4 visual estudio\\repositorio para api\\proyecto-api\\api de prueba\\modelos\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|solutionrelative:api de prueba\\modelos\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|c:\\users\\danco\\onedrive\\documentos\\ds4 visual estudio\\repositorio para api\\proyecto-api\\api de prueba\\modelos\\dto\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|solutionrelative:api de prueba\\modelos\\dto\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|c:\\users\\danco\\onedrive\\documentos\\ds4 visual estudio\\repositorio para api\\proyecto-api\\api de prueba\\modelos\\dto\\carritodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|solutionrelative:api de prueba\\modelos\\dto\\carritodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|c:\\users\\danco\\onedrive\\documentos\\ds4 visual estudio\\repositorio para api\\proyecto-api\\api de prueba\\modelos\\carritocompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|solutionrelative:api de prueba\\modelos\\carritocompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|c:\\users\\danco\\onedrive\\documentos\\ds4 visual estudio\\repositorio para api\\proyecto-api\\api de prueba\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|solutionrelative:api de prueba\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|c:\\users\\danco\\onedrive\\documentos\\ds4 visual estudio\\repositorio para api\\proyecto-api\\api de prueba\\modelos\\dto\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|solutionrelative:api de prueba\\modelos\\dto\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|c:\\users\\danco\\onedrive\\documentos\\ds4 visual estudio\\repositorio para api\\proyecto-api\\api de prueba\\modelos\\dto\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|solutionrelative:api de prueba\\modelos\\dto\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|c:\\users\\danco\\onedrive\\documentos\\ds4 visual estudio\\repositorio para api\\proyecto-api\\api de prueba\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|solutionrelative:api de prueba\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|c:\\users\\danco\\onedrive\\documentos\\ds4 visual estudio\\repositorio para api\\proyecto-api\\api de prueba\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -69,14 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|c:\\users\\danco\\onedrive\\documentos\\ds4 visual estudio\\repositorio para api\\proyecto-api\\api de prueba\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|solutionrelative:api de prueba\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|c:\\users\\danco\\onedrive\\documentos\\ds4 visual estudio\\repositorio para api\\proyecto-api\\api de prueba\\modelos\\dto\\productodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|solutionrelative:api de prueba\\modelos\\dto\\productodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|c:\\users\\danco\\onedrive\\documentos\\ds4 visual estudio\\repositorio para api\\proyecto-api\\api de prueba\\modelos\\dto\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8ACA2A7D-8DFF-4CAB-AF1A-276262225C66}|Api de Prueba\\Api de Prueba.csproj|solutionrelative:api de prueba\\modelos\\dto\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,8 +54,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 19,
+          "SelectedChildIndex": 17,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\Api de Prueba\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Api de Prueba\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\Api de Prueba\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Api de Prueba\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAcwC0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T05:21:20.557Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
@@ -118,143 +100,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HistorialController.cs",
-              "DocumentMoniker": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\Api de Prueba\\Controllers\\HistorialController.cs",
-              "RelativeDocumentMoniker": "Api de Prueba\\Controllers\\HistorialController.cs",
-              "ToolTip": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\Api de Prueba\\Controllers\\HistorialController.cs",
-              "RelativeToolTip": "Api de Prueba\\Controllers\\HistorialController.cs",
-              "ViewState": "AgIAAHAAAAAAAAAAAAAYwHgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T04:01:59.419Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "OrderItemDto.cs",
-              "DocumentMoniker": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\Api de Prueba\\Modelos\\DTO\\OrderItemDto.cs",
-              "RelativeDocumentMoniker": "Api de Prueba\\Modelos\\DTO\\OrderItemDto.cs",
-              "ToolTip": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\Api de Prueba\\Modelos\\DTO\\OrderItemDto.cs",
-              "RelativeToolTip": "Api de Prueba\\Modelos\\DTO\\OrderItemDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T03:59:13.018Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "OrderDto.cs",
-              "DocumentMoniker": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\Api de Prueba\\Modelos\\DTO\\OrderDto.cs",
-              "RelativeDocumentMoniker": "Api de Prueba\\Modelos\\DTO\\OrderDto.cs",
-              "ToolTip": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\Api de Prueba\\Modelos\\DTO\\OrderDto.cs",
-              "RelativeToolTip": "Api de Prueba\\Modelos\\DTO\\OrderDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T03:53:44.71Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\Api de Prueba\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Api de Prueba\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\Api de Prueba\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Api de Prueba\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAYwCgAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T05:21:20.557Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "RegisterRequest.cs",
-              "DocumentMoniker": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\Api de Prueba\\Modelos\\DTO\\RegisterRequest.cs",
-              "RelativeDocumentMoniker": "Api de Prueba\\Modelos\\DTO\\RegisterRequest.cs",
-              "ToolTip": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\Api de Prueba\\Modelos\\DTO\\RegisterRequest.cs",
-              "RelativeToolTip": "Api de Prueba\\Modelos\\DTO\\RegisterRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T05:17:42.647Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "LoginRequest.cs",
-              "DocumentMoniker": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\Api de Prueba\\Modelos\\DTO\\LoginRequest.cs",
-              "RelativeDocumentMoniker": "Api de Prueba\\Modelos\\DTO\\LoginRequest.cs",
-              "ToolTip": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\Api de Prueba\\Modelos\\DTO\\LoginRequest.cs",
-              "RelativeToolTip": "Api de Prueba\\Modelos\\DTO\\LoginRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T05:16:54.359Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\Api de Prueba\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Api de Prueba\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\Api de Prueba\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Api de Prueba\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-02T05:00:43.81Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CarritoController.cs",
               "DocumentMoniker": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\Api de Prueba\\Controllers\\CarritoController.cs",
               "RelativeDocumentMoniker": "Api de Prueba\\Controllers\\CarritoController.cs",
               "ToolTip": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\Api de Prueba\\Controllers\\CarritoController.cs",
               "RelativeToolTip": "Api de Prueba\\Controllers\\CarritoController.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAcwEMAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwD4AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T03:45:26.328Z",
+              "WhenOpened": "2025-12-07T03:28:38.851Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductosController.cs",
-              "DocumentMoniker": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\Api de Prueba\\Controllers\\ProductosController.cs",
-              "RelativeDocumentMoniker": "Api de Prueba\\Controllers\\ProductosController.cs",
-              "ToolTip": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\Api de Prueba\\Controllers\\ProductosController.cs",
-              "RelativeToolTip": "Api de Prueba\\Controllers\\ProductosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T21:05:45.56Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "CarritoDTO.cs",
               "DocumentMoniker": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\Api de Prueba\\Modelos\\DTO\\CarritoDTO.cs",
               "RelativeDocumentMoniker": "Api de Prueba\\Modelos\\DTO\\CarritoDTO.cs",
               "ToolTip": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\Api de Prueba\\Modelos\\DTO\\CarritoDTO.cs",
               "RelativeToolTip": "Api de Prueba\\Modelos\\DTO\\CarritoDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T21:03:19.688Z",
+              "WhenOpened": "2025-12-07T00:31:32.945Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ProductoDTO.cs",
-              "DocumentMoniker": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\Api de Prueba\\Modelos\\DTO\\ProductoDTO.cs",
-              "RelativeDocumentMoniker": "Api de Prueba\\Modelos\\DTO\\ProductoDTO.cs",
-              "ToolTip": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\Api de Prueba\\Modelos\\DTO\\ProductoDTO.cs",
-              "RelativeToolTip": "Api de Prueba\\Modelos\\DTO\\ProductoDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T18:42:17.268Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 5,
               "Title": "UsuarioDTO.cs",
               "DocumentMoniker": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\Api de Prueba\\Modelos\\DTO\\UsuarioDTO.cs",
               "RelativeDocumentMoniker": "Api de Prueba\\Modelos\\DTO\\UsuarioDTO.cs",
@@ -262,11 +134,12 @@
               "RelativeToolTip": "Api de Prueba\\Modelos\\DTO\\UsuarioDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T18:21:16.823Z"
+              "WhenOpened": "2025-11-29T18:21:16.823Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Producto.cs",
               "DocumentMoniker": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\Api de Prueba\\Modelos\\Producto.cs",
               "RelativeDocumentMoniker": "Api de Prueba\\Modelos\\Producto.cs",
@@ -279,19 +152,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
               "Title": "UsuarioController.cs",
               "DocumentMoniker": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\Api de Prueba\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "Api de Prueba\\Controllers\\UsuarioController.cs",
               "ToolTip": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\Api de Prueba\\Controllers\\UsuarioController.cs",
               "RelativeToolTip": "Api de Prueba\\Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T01:30:47.297Z"
+              "WhenOpened": "2025-11-26T01:30:47.297Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 9,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\Api de Prueba\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Api de Prueba\\Data\\ApplicationDbContext.cs",
@@ -303,7 +177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\Api de Prueba\\Program.cs",
               "RelativeDocumentMoniker": "Api de Prueba\\Program.cs",
@@ -315,7 +189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\Api de Prueba\\appsettings.json",
               "RelativeDocumentMoniker": "Api de Prueba\\appsettings.json",
@@ -327,7 +201,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "CarritoCompra.cs",
               "DocumentMoniker": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\Api de Prueba\\Modelos\\CarritoCompra.cs",
               "RelativeDocumentMoniker": "Api de Prueba\\Modelos\\CarritoCompra.cs",
@@ -340,15 +214,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\Api de Prueba\\Modelos\\Usuario.cs",
               "RelativeDocumentMoniker": "Api de Prueba\\Modelos\\Usuario.cs",
               "ToolTip": "C:\\Users\\danco\\OneDrive\\Documentos\\DS4 visual Estudio\\Repositorio para Api\\Proyecto-Api\\Api de Prueba\\Modelos\\Usuario.cs",
               "RelativeToolTip": "Api de Prueba\\Modelos\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T14:09:23.591Z"
+              "WhenOpened": "2025-11-24T14:09:23.591Z",
+              "EditorCaption": ""
             }
           ]
         }

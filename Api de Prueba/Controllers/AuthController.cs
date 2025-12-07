@@ -44,8 +44,8 @@ namespace Api_de_Prueba.Controllers
                 user = new
                 {
                     usuarioId = usuario.usuarioId,
-                    nombreUsuario = usuario.nombreUsuario,
-                    correo = usuario.correo
+                    name = usuario.nombreUsuario,
+                    email = usuario.correo
                 }
             });
         }
@@ -95,8 +95,8 @@ namespace Api_de_Prueba.Controllers
                 user = new
                 {
                     usuarioId = nuevoUsuario.usuarioId,
-                    nombreUsuario = nuevoUsuario.nombreUsuario,
-                    correo = nuevoUsuario.correo
+                    name = nuevoUsuario.nombreUsuario,
+                    email = nuevoUsuario.correo
                 }
             });
         }

@@ -8,6 +8,6 @@
         public decimal precio { get; set; }
         public int cantidadDisponible { get; set; }
         public string categoria { get; set; } = string.Empty;
-        public double descuento { get; set; }
+        public decimal descuento { get; set; }
     }
 }

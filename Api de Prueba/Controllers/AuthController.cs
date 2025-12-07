@@ -88,7 +88,7 @@ namespace Api_de_Prueba.Controllers
 
         private string GenerarToken(Usuario usuario)
         {
-            // Simplificado para desarrollo
+            
             return Convert.ToBase64String(
                 System.Text.Encoding.UTF8.GetBytes($"{usuario.usuarioId}:{usuario.correo}:{DateTime.Now}")
             );

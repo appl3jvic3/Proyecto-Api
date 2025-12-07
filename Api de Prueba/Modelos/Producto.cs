@@ -23,10 +23,10 @@ namespace Api_de_Prueba.Modelos
     public string categoria { get; set; } = string.Empty;
 
     [JsonPropertyName("discount")]
-    public double descuento { get; set; }
+    public decimal descuento { get; set; }
 
-    // Esta propiedad NO se guarda en la base de datos
-    [NotMapped]  // ⭐ IMPORTANTE: Le dice a Entity Framework que ignore esta propiedad
+    // Esta propiedad NO se guarda en la BD
+    [NotMapped]  // Le dice a Entity Framework que ignore esta propiedad
     [JsonPropertyName("image")]
     public string imagen { get; set; } = string.Empty;
 }

@@ -33,6 +33,9 @@ namespace Api_de_Prueba.Controllers
         }
 
         // GET: api/Carrito/user/{usuarioId}
+        // Cambios hechos por Luis:
+        // - Agregado mapeo manual para devolver datos en formato consistente con el frontend
+        // - Incluye: numeroCompra, usuarioId, productoId, cantidad, precioTotal, fechaCompra
         [HttpGet("user/{usuarioId:int}")]
         public async Task<IActionResult> GetByUsuario(int usuarioId)
         {
@@ -40,9 +43,21 @@ namespace Api_de_Prueba.Controllers
                 .Include(c => c.Producto)
                 .AsNoTracking()
                 .Where(c => c.usuarioId == usuarioId)
+                .OrderByDescending(c => c.fechaCompra)  // ✅ Más recientes primero
                 .ToListAsync();
 
-            return Ok(carritoItems);
+            // ✅ Mapear a un formato consistente
+            var resultado = carritoItems.Select(c => new
+            {
+                numeroCompra = c.numeroCompra,
+                usuarioId = c.usuarioId,
+                productoId = c.productoId,
+                cantidad = c.cantidad,
+                precioTotal = c.precioTotal,
+                fechaCompra = c.fechaCompra
+            });
+
+            return Ok(resultado);
         }
 
         // POST: api/Carrito

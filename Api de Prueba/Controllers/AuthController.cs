@@ -54,8 +54,23 @@ namespace Api_de_Prueba.Controllers
         [HttpPost("register")]
         public async Task<ActionResult> Register([FromBody] RegisterRequest request)
         {
-            
-            var correoNormalizado = request.correo?.Trim().ToLower();
+            // Validar que los campos requeridos no sean null o vacíos
+            if (string.IsNullOrWhiteSpace(request.correo))
+            {
+                return BadRequest(new { message = "El correo es requerido" });
+            }
+
+            if (string.IsNullOrWhiteSpace(request.nombreUsuario))
+            {
+                return BadRequest(new { message = "El nombre de usuario es requerido" });
+            }
+
+            if (string.IsNullOrWhiteSpace(request.contrasena))
+            {
+                return BadRequest(new { message = "La contraseña es requerida" });
+            }
+
+            var correoNormalizado = request.correo.Trim().ToLower();
 
             // Verificar si ya existe
             if (await _context.Usuario.AnyAsync(u => u.correo.ToLower() == correoNormalizado))
@@ -68,7 +83,7 @@ namespace Api_de_Prueba.Controllers
                 nombreUsuario = request.nombreUsuario.Trim(),
                 correo = correoNormalizado,  
                 contrasena = request.contrasena.Trim(),
-                celular = null  
+                celular = null
             };
 
             _context.Usuario.Add(nuevoUsuario);

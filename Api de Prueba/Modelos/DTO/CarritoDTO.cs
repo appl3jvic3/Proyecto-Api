@@ -4,11 +4,7 @@ namespace Api_de_Prueba.Modelos.DTO
 {
     public class CarritoDTO
     {
-        // Cambios hechos por Luis:
-        // - Cambiado "userId" por "usuarioId" para coincidir con el frontend
-        // - Cambiado "productId" por "productoId" para coincidir con el frontend
-        // - Cambiado "quantity" por "cantidad" para coincidir con el frontend
-        // - Cambiado "totalPrice" por "precioTotal" para coincidir con el frontend
+     
 
         [JsonPropertyName("id")]
         public int? numeroCompra { get; set; }

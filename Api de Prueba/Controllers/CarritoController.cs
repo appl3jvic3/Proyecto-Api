@@ -33,9 +33,6 @@ namespace Api_de_Prueba.Controllers
         }
 
         // GET: api/Carrito/user/{usuarioId}
-        // Cambios hechos por Luis:
-        // - Agregado mapeo manual para devolver datos en formato consistente con el frontend
-        // - Incluye: numeroCompra, usuarioId, productoId, cantidad, precioTotal, fechaCompra
         [HttpGet("user/{usuarioId:int}")]
         public async Task<IActionResult> GetByUsuario(int usuarioId)
         {

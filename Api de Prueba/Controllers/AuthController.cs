@@ -38,9 +38,7 @@ namespace Api_de_Prueba.Controllers
                 return Unauthorized(new { message = "Contraseña incorrecta" });
             }
 
-            // CAMBIO HECHO POR LUIS:
-            // Modificado para devolver "nombreUsuario" y "correo" en lugar de "name" y "email"
-            // Esto asegura consistencia con lo que espera el frontend en perfil.js
+           
             // El frontend busca user.nombreUsuario y user.correo en localStorage
             return Ok(new
             {
@@ -93,8 +91,7 @@ namespace Api_de_Prueba.Controllers
             _context.Usuario.Add(nuevoUsuario);
             await _context.SaveChangesAsync();
 
-            // CAMBIO HECHO POR LUIS:
-            // Modificado para devolver "nombreUsuario" y "correo" en lugar de "name" y "email"
+            
             // Mantiene consistencia con el formato usado en el metodo Login
             return Ok(new
             {
@@ -108,29 +105,7 @@ namespace Api_de_Prueba.Controllers
             });
         }
 
-        // GET: api/Auth/user/{usuarioId}
-        // METODO AGREGADO POR LUIS:
-        // Endpoint para obtener informacion completa de un usuario por su ID
-        // Se utiliza en perfil.js (linea 30-38) cuando el localStorage no tiene
-        // los datos completos del usuario (nombreUsuario o correo faltantes)
-        // 
-        // Flujo de uso:
-        // 1. El usuario inicia sesion y se guarda en localStorage
-        // 2. Si por alguna razon faltan datos, perfil.js llama a este endpoint
-        // 3. El endpoint devuelve los datos completos del usuario
-        // 4. perfil.js actualiza el localStorage con los datos completos
-        //
-        // Respuesta exitosa (200 OK):
-        // {
-        //   "usuarioId": 1,
-        //   "nombreUsuario": "juan_perez",
-        //   "correo": "juan@example.com"
-        // }
-        //
-        // Respuesta de error (404 Not Found):
-        // {
-        //   "mensaje": "Usuario con ID X no encontrado"
-        // }
+        
         [HttpGet("user/{usuarioId:int}")]
         public async Task<IActionResult> GetUsuario(int usuarioId)
         {

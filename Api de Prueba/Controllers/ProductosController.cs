@@ -12,7 +12,6 @@ namespace Api_de_Prueba.Controllers
     {
         private readonly ApplicationDbContext _context;
 
-        // Constructor correcto (inyección de dependencias)
         public ProductosController(ApplicationDbContext context)
         {
             _context = context;
